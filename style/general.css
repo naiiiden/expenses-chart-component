@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
 *, *::after, *::before {
   margin: 0;
   padding: 0;
@@ -8,6 +9,8 @@ body {
   position: relative;
   width: 100%;
   min-height: 100vh;
+  font-family: DM Sans, sans-serif;
+  font-size: 1.125rem;
 }
 
 img {
