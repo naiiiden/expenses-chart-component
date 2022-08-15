@@ -34,6 +34,7 @@ main .balance--container {
   padding: 1rem;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 1rem;
 }
 main .balance--container h3 {
   color: hsl(33deg, 100%, 98%);
@@ -44,4 +45,56 @@ main .balance--container span {
   color: hsl(33deg, 100%, 98%);
   font-size: 1.375rem;
   font-weight: 700;
+}
+main .chart--container {
+  background: hsl(33deg, 100%, 98%);
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+main .chart--container h2 {
+  color: hsl(25deg, 47%, 15%);
+  font-size: 1.375rem;
+}
+main .chart--container .chart--subcontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 3rem;
+}
+main .chart--container .chart--subcontainer .chart {
+  width: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .chart--container .chart--subcontainer .chart .column {
+  background: hsl(10deg, 79%, 65%);
+  width: 100%;
+  border-radius: 0.25rem;
+}
+main .chart--container .chart--subcontainer .chart .column.column--mon {
+  height: 3rem;
+}
+main .chart--container .chart--subcontainer .chart .column.column--tue {
+  height: 5rem;
+}
+main .chart--container .chart--subcontainer .chart .column.column--wed {
+  background: hsl(186deg, 34%, 60%);
+  height: 8rem;
+}
+main .chart--container .chart--subcontainer .chart .column.column--thu {
+  height: 4.5rem;
+}
+main .chart--container .chart--subcontainer .chart .column.column--fri {
+  height: 3.5rem;
+}
+main .chart--container .chart--subcontainer .chart .column.column--sat {
+  height: 6rem;
+}
+main .chart--container .chart--subcontainer .chart .column.column--sun {
+  height: 4.25rem;
+}
+main .chart--container .chart--subcontainer .chart .day {
+  font-size: 0.75rem;
+  color: hsl(28deg, 10%, 53%);
 }/*# sourceMappingURL=general.css.map */
