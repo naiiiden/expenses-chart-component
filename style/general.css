@@ -97,6 +97,7 @@ main .chart--container .chart--subcontainer .chart .column.column--sun {
 main .chart--container .chart--subcontainer .chart .day {
   font-size: 0.75rem;
   color: hsl(28deg, 10%, 53%);
+  margin-top: 0.5rem;
 }
 main .total--container {
   margin-top: 0.25rem;
