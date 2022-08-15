@@ -123,4 +123,46 @@ main {
             }
         }
     }
+
+    .total--container {
+        margin-top: .25rem;
+        border-radius: .5rem;
+        padding: 1rem;
+        background: $very-pale-orange;
+
+        h3 {
+            color: $medium-brown;
+            font-weight: 400;
+            font-size: 1rem;
+        }
+
+        .price {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+
+            .total {
+                color: $dark-brown;
+                font-weight: 700;
+                font-size: 1.875rem;
+            }
+
+            .last--month {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+
+                .percent {
+                    color: $dark-brown;
+                    font-weight: 700;
+                    font-size: 1rem;
+                }
+
+                .last {
+                    color: $medium-brown;
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
 }
