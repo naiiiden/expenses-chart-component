@@ -132,4 +132,10 @@ main .total--container .price .last--month .percent {
 main .total--container .price .last--month .last {
   color: hsl(28deg, 10%, 53%);
   font-size: 1rem;
+}
+
+@media screen and (min-width: 400px) {
+  main {
+    width: 400px;
+  }
 }/*# sourceMappingURL=general.css.map */

@@ -33,7 +33,6 @@ img {
 
 /* CHART STYLE */
 main {
-    // border: 1px solid red;
     width: 100%;
     padding: 0 1rem;
 
@@ -164,5 +163,11 @@ main {
                 }
             }
         }
+    }
+}
+
+@media screen and (min-width: 400px) {
+    main {
+        width: 400px;
     }
 }
