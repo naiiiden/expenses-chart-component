@@ -83,6 +83,11 @@ main {
                     background: $soft-red;
                     width: 100%;
                     border-radius: .25rem;
+
+                    &:hover {
+                        opacity: .8;
+                        cursor: pointer;
+                    }
                     
                     &.column--mon {
                         height: 3rem;

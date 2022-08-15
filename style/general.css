@@ -72,6 +72,10 @@ main .chart--container .chart--subcontainer .chart .column {
   width: 100%;
   border-radius: 0.25rem;
 }
+main .chart--container .chart--subcontainer .chart .column:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
 main .chart--container .chart--subcontainer .chart .column.column--mon {
   height: 3rem;
 }
