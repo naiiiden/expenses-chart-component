@@ -1,1 +1,5 @@
-console.log(1);
+fetch("script/data.json")
+    .then(response => response.json())
+    .then(data => {
+        console.log(data);
+    });
