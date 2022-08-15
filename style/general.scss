@@ -78,6 +78,25 @@ main {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
+                position: relative;
+
+                &:hover {
+                    .hover--price {
+                        display: block;
+                    }
+                }
+
+                .hover--price {
+                    background: $dark-brown;
+                    color: $very-pale-orange;
+                    padding: .25rem;
+                    font-size: 1rem;
+                    font-weight: 700;
+                    border-radius: .375rem;
+                    display: none;
+                    position: absolute;
+                    top: -2.25rem;
+                }
 
                 .column {
                     background: $soft-red;
