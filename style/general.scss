@@ -20,9 +20,41 @@ body {
     font-family: DM Sans, sans-serif;
     font-size: 1.125rem;
     background: $cream;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 img {
     max-width: 100%;
     height: auto;
+}
+
+/* CHART STYLE */
+main {
+    border: 1px solid red;
+    width: 100%;
+    padding: 0 1rem;
+
+    .balance--container {
+        background: $soft-red;
+        border-radius: .5rem;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        
+        h3 {
+            color: $very-pale-orange;
+            font-size: 1.125rem;
+            font-weight: 400;
+        }
+
+        span {
+            color: $very-pale-orange;
+            font-size: 1.375rem;
+            font-weight: 700;
+        }
+
+    }
 }
