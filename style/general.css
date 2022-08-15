@@ -25,7 +25,6 @@ img {
 
 /* CHART STYLE */
 main {
-  border: 1px solid red;
   width: 100%;
   padding: 0 1rem;
 }
@@ -34,7 +33,7 @@ main .balance--container {
   border-radius: 0.5rem;
   padding: 1rem;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
 }
 main .balance--container h3 {
   color: hsl(33deg, 100%, 98%);

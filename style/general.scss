@@ -33,7 +33,7 @@ img {
 
 /* CHART STYLE */
 main {
-    border: 1px solid red;
+    // border: 1px solid red;
     width: 100%;
     padding: 0 1rem;
 
@@ -42,7 +42,7 @@ main {
         border-radius: .5rem;
         padding: 1rem;
         display: flex;
-        flex-direction: column;
+        justify-content: space-between;
         
         h3 {
             color: $very-pale-orange;
@@ -55,6 +55,5 @@ main {
             font-size: 1.375rem;
             font-weight: 700;
         }
-
     }
 }
