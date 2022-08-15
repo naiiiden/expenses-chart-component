@@ -11,6 +11,7 @@ body {
   min-height: 100vh;
   font-family: DM Sans, sans-serif;
   font-size: 1.125rem;
+  background: hsl(27deg, 66%, 92%);
 }
 
 img {
